@@ -33,4 +33,7 @@ public class ContactUsPage {
 
        System.out.println(contactMethods);
     }
+
+    public void contactMethodsText() {
+    }
 }

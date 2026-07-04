@@ -11,4 +11,14 @@ public class NdosiTest extends Base {
         contactUsPage.clickContactUsButton();
         contactUsPage.contactMethodsText();
     }
+
+    @Test
+    public void loginTest(){
+        loginPage.clickLoginMainButton();
+        loginPage.enterUsername("bellabjacobs7@gmail.com");
+        loginPage.enterPassword("12345@77");
+        loginPage.clickLoginButton();
+        landingPage.welcomeText();
+    }
+
 }

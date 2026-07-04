@@ -22,7 +22,7 @@ public class LoginPage {
         driver.findElement(loginMainButton_xpath).click();
     }
 
-    public void enterUsernames(String username){
+    public void enterUsername(String username){
         driver.findElement(username_id).sendKeys(username);
     }
 

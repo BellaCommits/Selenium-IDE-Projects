@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import pages.ContactUsPage;
 import utils.Base;
@@ -21,4 +22,8 @@ public class NdosiTest extends Base {
         landingPage.welcomeText();
     }
 
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
+    }
 }
